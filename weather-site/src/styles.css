@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+nav {
+  background-color: #646cffaa;
+  display: flex;
+  height: 55px;
+  padding: 16px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.nav--title {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 0;
+  letter-spacing: -0.075em;
+}
+
+.weather-form {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
+
+/* .submit-btn {
+  border: ;
+} */
